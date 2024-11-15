@@ -1,0 +1,92 @@
+/* AboutUs.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+    padding: 40px;
+}
+
+.about-us {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.4em;
+    color: #212529;
+    margin-bottom: 16px;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555a5e;
+}
+
+.founders {
+    display: flex;
+    gap: 50px;
+    align-items: flex-end;
+    width: 50%;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.founder {
+    position: relative;
+    width: 400px; 
+    height: 350px;
+    background-color: #bbc9d3;
+    border-radius: 95px 95px 15px 0;
+}
+
+.founder-name {
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+}
+
+
+
+.founder-name .title {
+    font-size: 0.85em;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.f{
+    color: #0b65c5;
+    font-weight:bold;
+
+}

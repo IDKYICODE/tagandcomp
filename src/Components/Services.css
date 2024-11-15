@@ -1,0 +1,87 @@
+
+.services-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 40px;
+  }
+  
+  .services-content {
+    flex: 1;
+  }
+  
+  .offer-title {
+    color: #5e84ff;
+    font-size: 18px;
+  }
+  
+  .main-heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .description {
+    margin-top: 10px;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .discover-button {
+    margin-top: 20px;
+    background-color: #5e84ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .feature-block {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .feature-block h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .feature-block p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .certified-icon {
+    background-color: #4caf50;
+  }
+  
+  .service-icon {
+    background-color: #2196f3;
+  }
+  
+  .experience-icon {
+    background-color: #ff5722;
+  }
+  
+  .value-icon {
+    background-color: #ffeb3b;
+  }
+  
